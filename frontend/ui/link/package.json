@@ -8,6 +8,8 @@
     "react-router-dom": "5.0.0"
   },
   "dependencies": {
+    "@frontend/auth": "^0.1.0",
+    "@frontend/users": "^1.0.0",
     "styled-system": "5.0.6"
   }
 }

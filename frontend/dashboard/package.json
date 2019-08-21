@@ -4,7 +4,7 @@
   "main": "src/index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --config=./config/webpack/dev.ts --hot --history-api-fallback --disable-host-check --host=0.0.0.0 --port=$PORT",
+    "dev": "webpack-dev-server --config=./config/webpack/dev.ts --hot --history-api-fallback --disable-host-check",
     "build": "webpack --config=./config/webpack/build.ts --progress --display=minimal"
   },
   "devDependencies": {
@@ -42,6 +42,8 @@
   "dependencies": {
     "@emotion/core": "^10.0.9",
     "@emotion/styled": "^10.0.9",
+    "@frontend/auth": "^0.1.0",
+    "@frontend/users": "^1.0.0",
     "apollo-cache-inmemory": "^1.2.10",
     "apollo-client": "^2.4.2",
     "apollo-link": "^1.2.2",

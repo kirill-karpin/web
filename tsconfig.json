@@ -9,9 +9,11 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowJs": true,
-    "lib": ["es6"],
+    "lib": ["es6", "dom"],
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "preserveSymlinks": true,
+    "jsx": "preserve"
   }
+
 }

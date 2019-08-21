@@ -11,6 +11,8 @@
   "dependencies": {
     "@emotion/core": "10.0.10",
     "@emotion/styled": "10.0.12",
+    "@frontend/auth": "^0.1.0",
+    "@frontend/users": "^1.0.0",
     "styled-system": "5.0.6"
   }
 }

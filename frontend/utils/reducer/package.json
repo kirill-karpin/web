@@ -4,6 +4,8 @@
   "license": "MIT",
   "main": "src/index.ts",
   "dependencies": {
+    "@frontend/auth": "^0.1.0",
+    "@frontend/users": "^1.0.0",
     "redux": "^4.0.0"
   }
 }
